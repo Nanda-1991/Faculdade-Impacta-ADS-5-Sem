@@ -1,4 +1,4 @@
-Projeto - Urna Eletrôniica
+Projeto - Urna Eletrônica
 
 O projeto consiste no desenvolvimento de um sistema simples de votação, permitindo o cadastro dos participantes, 
 o registro dos votos e a visualização da apuração dos resultados. 
