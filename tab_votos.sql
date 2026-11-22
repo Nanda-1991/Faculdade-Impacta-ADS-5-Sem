@@ -1,0 +1,9 @@
+USE EstudoWeb;
+	GO
+Create table Votos (
+Id INT IDENTITY(1,1) PRIMARY KEY,
+CPF_Eleitor VARCHAR(14) NOT NULL,
+Nome_Eleitor VARCHAR(150) NOT NULL,
+Matricula_Candidato VARCHAR(4) NOT NULL,
+DataCadastro DATETIME2 NOT NULL DEFAULT SYSDATETIME()
+)
